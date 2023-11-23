@@ -68,7 +68,7 @@ begin
             nodoAux^.izq:= nil;
             nodoAux^.der:= nil;
             reTipoArbol:= nodoAux;
-         end;
+        end;
 
 end;
 
@@ -105,12 +105,12 @@ begin
         if (reArbol^.DNI < dato) then
             begin
                 punteroAlNodo:=punteroAlNodo(reArbol^.der,dato);
-               
+            
             end
         else
             begin
                 punteroAlNodo:=punteroAlNodo(reArbol^.izq,dato);
-               
+            
             end;
         
 end;
@@ -124,7 +124,7 @@ begin
     writeln('El DNI ', datos,'tiene el usurio ', puntUsuario^.NUsuario)
 
     else 
-     writeln('usuario no existe');
+    writeln('usuario no existe');
 end;
 begin
     // Estaria bueno que esta funcion se llamara CARGAR archivo.
