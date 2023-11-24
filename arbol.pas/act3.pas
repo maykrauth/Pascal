@@ -134,7 +134,7 @@ begin
     // registroAux no tiene nada...
     //writeLn(tipoArch.usudni);
     cargarArbol(tipoArch,arbol);
-    writeln('Ingresar el dni solamente numeros ');
+    writeln('Ingresar el dni solamente numeros test');
     readln(ingresarDNI);
     buscarNodo(arbol,ingresarDNI);
     
